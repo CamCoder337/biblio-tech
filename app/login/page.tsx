@@ -47,6 +47,14 @@ export default function Login({
     if (error) {
       return redirect("/login?message=Could not authenticate user");
     }
+    // Inserting user in our custom User Table
+    const signupCustomUser = await supabase.rpc('create_user_on_signup', {
+      user_email: email,
+    });
+
+    if (signupCustomUser.error !== null) {
+      return redirect("/login?message=Could not authenticate user");
+    }
 
     return redirect("/login?message=Check email to continue sign in process");
   };
