@@ -10,6 +10,7 @@
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
     "autoprefixer": "10.4.17",
+    "@heroicons/react": "^2.0.18",
     "clsx": "^2.1.1",
     "framer-motion": "^11.1.9",
     "geist": "^1.2.1",
