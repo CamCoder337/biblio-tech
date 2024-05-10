@@ -1,6 +1,5 @@
 import { createClient } from "@/utils/supabase/server";
 import { redirect } from "next/navigation";
-import {UserInfo} from "@/types/user";
 export default async function Page() {
     const supabase = createClient();
 
