@@ -50,15 +50,25 @@ export default async function ProtectedPage() {
         <p>
           Powered by{" "}
           <a
-            href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
-            target="_blank"
-            className="font-bold hover:underline"
-            rel="noreferrer"
+              href="https://github.com/CamCoder337"
+              target="_blank"
+              className="font-bold hover:underline"
+              rel="noreferrer"
           >
-            Supabase
+            Camcoder337
+          </a>
+          &
+          <a
+              href="https://github.com/Etie20"
+              target="_blank"
+              className="font-bold hover:underline"
+              rel="noreferrer"
+          >
+            Etie20
           </a>
         </p>
       </footer>
+
     </div>
   );
 }
